@@ -12,7 +12,7 @@ if len(ws) > 1:
     ws = ws.loc[ws['Shape_Area'] == max(ws['Shape_Area'])]
     print(ws)
     print(ws.touches(ws))
-    ws.to_file('ws_delrows2.shp')
+    ws.to_file('ws_delrows.shp')
 elif len(ws) == 1:
     print("You're good to go, Em!")
     print("Thanks, Em :)")
