@@ -1,4 +1,11 @@
-﻿import geopandas as gpd
+﻿"""
+Written by Emily Pease
+
+This script mosaics rasters and projects them to your desired projection.
+Notice: Breaks if given data > 4GB.  Still working this out...
+"""
+
+import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
 import os
